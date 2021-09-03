@@ -31,18 +31,9 @@ class RandomWalk():
 rw = RandomWalk()
 rw.walking()
 
-plt.scatter(rw.x_positions, rw.y_positions, c=rw.y_positions, edgecolors='none', cmap=plt.cm.Blues, s=2)
+plt.scatter(rw.x_positions, rw.y_positions, c=rw.y_positions, edgecolors='none', cmap=plt.cm.Blues, s=1)
 plt.scatter(0, 0, c='black', edgecolors='none', s=50)
 plt.scatter(rw.x_positions[-1], rw.y_positions[-1], c='red', edgecolors='none', s=50)
 plt.title('A random walk', fontsize=20)
 
-#plt.plot(rw.x_positions, rw.y_positions, c='blue', linewidth=1)
 plt.show()
-
-
-
-        
-
-        
-    
-
