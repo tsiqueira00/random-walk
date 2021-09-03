@@ -6,10 +6,6 @@ Steps
     * y_positions - y axis list of values
     * dot_quantity - It's the amount of dots that are going to be represented in the graph (it has a default value of 50000)
  
-2 - Then I created the walking method, which contains the 'mechanichs' of the graph. Basically I used a while loop to append random values, using the choice function 
-    from the random module, to the x_positions and y_positions lists.
+2 - Then I created the walking method, which contains the 'mechanichs' of the graph. Basically I used a while loop to append random values, using the choice function from the random module, to the x_positions and y_positions lists.
     
-3 - After that I created an instance from RandomWalk, then called the function walking to fill the lists, and then I called the function scatter from pyplot in order to
-    build the graph. 
-    
- 
+3 - After that I created an instance from RandomWalk, then called the function walking to fill the lists, and then I called the function scatter from pyplot in order to build the graph. 
